@@ -18,6 +18,14 @@ If this goes well, eventually I may want to genericize it so that anyone can dep
 
 ## TODOs
 
+### Database connection
+
+### Feed page
+
+### Create post page
+
+### Edit post page
+
 ### Tagging system
 
 I intend on writing about a number of disparate topics, from AI to urban planning to my homelab to whatever book I happen to be reading at the moment. It'll be important to have a featureful tagging system so that "readers" (currently, and likely permanently, theoretical) can choose to only view (and/or subscribe to) what they choose.
