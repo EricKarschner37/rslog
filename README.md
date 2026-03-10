@@ -18,7 +18,7 @@ If this goes well, eventually I may want to genericize it so that anyone can dep
 
 ## TODOs
 
-### Database connection
+### ~Database connection~
 
 ### Feed page
 
