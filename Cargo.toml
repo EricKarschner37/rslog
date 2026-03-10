@@ -9,3 +9,4 @@ rocket_dyn_templates = { version = "0.2.0", features = ["tera"] }
 rocket_db_pools = { version = "0.2.0", features = ["sqlx_postgres", "sqlx_macros"] }
 serde = "1.0.228"
 sqlx = { version = "0.7.4", features = ["macros", "migrate"] }
+dotenvy = "0.15.7"

@@ -13,6 +13,7 @@ mod model;
 
 #[launch]
 fn rocket() -> _ {
+    dotenvy::dotenv().ok();
     let offline_mode = env::var("SQLX_OFFLINE")
         .ok()
         .and_then(|v| { print!("v: {}", v); Some(v == "true") })
