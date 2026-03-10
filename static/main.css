@@ -1,3 +1,43 @@
 html {
-		background-color: blue;
+  --ui-background: #9BC5E0;
+  --ui-font-color: #382422;
+  background-color: var(--ui-background);
+}
+
+body {
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  position: sticky;
+  background-color: var(--ui-background);
+  // box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  border-bottom: 1px solid var(--ui-font-color);
+}
+
+p {
+  color: var(--ui-font-color);
+  font-weight: 500;
+  font-size: 20px;
+  margin: 8px;
+}
+
+main {
+  margin: 8px auto;
+}
+
+@media(max-width: 720px) {
+		main {
+				margin: 8px;
+				min-width: 325px;
+		}
+}
+
+@media(min-width: 720px) {
+		main {
+				min-width: 712px;
+				width: 60%;
+				max-width: 1400px;
+		}
 }

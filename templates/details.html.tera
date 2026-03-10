@@ -1,0 +1,8 @@
+{% extends "base" %}
+{% block content %}
+<link rel="stylesheet" href="/static/details.css" />
+<div class="post_container">
+  <h1>{{ post.title }}</title>
+  <p>{{ post.text }}</p>
+</div>
+{% endblock content %}
