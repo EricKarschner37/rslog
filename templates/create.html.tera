@@ -1,12 +1,15 @@
 {% extends "base" %}
 
-{%block content %}
+{% block content %}
+<link rel="stylesheet" href="/static/create.css" />
+<form method="post" class="card-container elevated flex-column stretch">
   <h1>New Post</h1>
-  <form method="post">
-    <label for="title">Title:</label><br>
-    <input type="text" name="title" id="title" /><br>
-    <label for="text">Text:</label><br>
-    <textarea name="text" id="text"></textarea><br>
+  <label for="title">Title:</label><br>
+  <textarea wrap="soft" name="title" id="title" class="title" resize="none" rows="1"></textarea><br>
+  <label for="text" style="margin-top: 4px">Text:</label><br>
+  <textarea name="text" id="text" rows="12"></textarea><br>
+  <div class="flex-row" style="justify-content:end; margin-top:4px">
     <input type="submit" value="Create" />
-  </form>
+  </div>
+</form>
 {% endblock content %}

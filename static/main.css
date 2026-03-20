@@ -20,7 +20,14 @@ p {
   color: var(--ui-font-color);
   font-weight: 500;
   font-size: 20px;
-  margin: 8px;
+}
+
+ul {
+		all: unset;
+}
+
+li {
+		all: unset;
 }
 
 main {

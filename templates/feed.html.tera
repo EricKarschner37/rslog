@@ -1,0 +1,15 @@
+{% extends "base" %}
+
+{% block content %}
+<div class="flex-column" style="flex-gap:8px">
+  <ul>
+  {% for post in posts -%}
+    <a href="{{ post.url }}">
+    <div class="card-container">
+      <h1>{{post.title}}</h1>
+      </div>
+    </a>
+  {%- endfor %}
+  </ul>
+</div>
+{% endblock content %}

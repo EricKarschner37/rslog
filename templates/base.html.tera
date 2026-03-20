@@ -4,6 +4,7 @@
     <meta charset="utf-8" />
     <title>RSlog - {{ title }}</title>
     <link rel="stylesheet" href="/static/main.css" />
+    <link rel="stylesheet" href="/static/shared.css" />
   </head>
   <body>
     <header>
